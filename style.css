@@ -23,6 +23,23 @@
   box-sizing: border-box;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+}
+.section-header {
+  font-family: var(--font-family-anton);
+  font-size: 32px;
+  letter-spacing: 0.02em;
+}
+.section-body {
+  font-family: var(--font-family-noto-sans-jp);
+  font-size: 16px;
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: var(--font-family-noto-sans-jp);
@@ -66,7 +83,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 94px 40px;
+  padding: 96px 40px;
   position: relative;
 }
 .hero::after {
@@ -122,4 +139,15 @@ img {
   .hero-texts {
     gap: 20px;
   }
+}
+
+/*about*/
+.about {
+  background-color: var(--color-background-black);
+}
+.about-container {
+  gap: 40px;
+}
+.about-section-head {
+  color: var(--);
 }
